@@ -1,0 +1,13 @@
+.callout-preview-container {
+  margin-top: 1em;
+}
+
+.callout-preview-container .callout {
+  margin: 0;
+}
+
+.callout-types-list {
+  font-family: var(--font-monospace);
+  font-size: 0.9em;
+  line-height: 1.6;
+}

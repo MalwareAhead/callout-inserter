@@ -1,0 +1,10 @@
+{
+  "id": "callout-inserter",
+  "name": "Callout Inserter",
+  "version": "1.0.0",
+  "minAppVersion": "1.10.6",
+  "description": "Insert callouts with fuzzy search and preview",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
