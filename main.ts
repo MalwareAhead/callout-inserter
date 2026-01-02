@@ -157,11 +157,16 @@ class CalloutSuggestModal extends FuzzySuggestModal<string> {
     const modalEl = this.modalEl;
     
     this.previewEl = modalEl.createDiv('callout-preview-container');
+    
     this.previewEl.style.padding = '1em';
     this.previewEl.style.borderTop = '1px solid var(--background-modifier-border)';
-    this.previewEl.style.height = 'auto';
+    
+    this.previewEl.style.flexShrink = '0'; 
+    
+    this.previewEl.style.maxHeight = '40vh'; 
+    this.previewEl.style.overflowY = 'auto';
+    
     this.previewEl.style.minHeight = '130px';
-    this.previewEl.style.overflow = 'auto';
   }
 
   getItems(): string[] {
